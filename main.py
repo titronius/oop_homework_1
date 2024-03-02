@@ -133,8 +133,6 @@ student_luke.finished_courses += ['Принятие отца-ситха']
 mentor_anakin.courses_attached += ['Python']
 mentor_obi_wan.courses_attached += ['Python']
 
-mentor_anakin.courses_attached += ['Python']
-
 reviewer_han.courses_attached += ['Python']
 reviewer_chewie.courses_attached += ['Python']
  
