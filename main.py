@@ -128,7 +128,7 @@ student_luke.finished_courses += ['Курсы верховой езды для �
 student_luke.finished_courses += ['Принятие отца-ситха']
 student_leia.finished_courses += ['Повстанчество для чайников']
 student_leia.finished_courses += ['История галактической республики']
-student_luke.finished_courses += ['Принятие отца-ситха']
+student_leia.finished_courses += ['Принятие отца-ситха']
 
 mentor_anakin.courses_attached += ['Python']
 mentor_obi_wan.courses_attached += ['Python']
