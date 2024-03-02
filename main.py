@@ -20,8 +20,8 @@ class Student:
         return f"Имя: {self.name}\
                 \nФамилия: {self.surname}\
                 \nСредняя оценка за домашние задания: {SupportFunctions.average_grade(self)}\
-                \nКурсы в процессе изучения: {self.courses_in_progress}\
-                \nЗавершенные курсы: {self.finished_courses}"
+                \nКурсы в процессе изучения: {', '.join(self.courses_in_progress)}\
+                \nЗавершенные курсы: {', '.join(self.finished_courses)}"
     
     def __eq__(self, other):
         return SupportFunctions.average_grade(self) == SupportFunctions.average_grade(other)
